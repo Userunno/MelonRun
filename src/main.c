@@ -144,7 +144,7 @@ int main ()
 			velocityY += gravity * deltaTime;
 			playerY += velocityY * deltaTime;
 
-			// Player on ground
+			// Player lends on ground
 			if (playerY >= 200)
 		{
    			playerY = 200;
